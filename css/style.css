@@ -1,7 +1,7 @@
 body {
     font-family: 'Doppio One', sans-serif;
     padding: 0px;
-    margin: 0px;
+    margin: 0px;    
 }
 
 /**    basic navbar    */
@@ -13,20 +13,67 @@ nav {
     width: 100%;
     background-color: crimson;
     padding: 5px;
-    margin-top: -20px;
+    color: #fff;
+    font-weight: bolder;
+    text-decoration: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;     
 }
 
-/**    logo / brand-name section    */
-#brand-name a {
+nav a {
     color: #fff;
     text-decoration: none;
 }
 
-#brand-name a:hover {
-    color: crimson;
+/**    logo / brand-name section    */
+#brand-name {
+    font-size: 1.8em;
+    margin-top: 10px;
+}
+
+#side-nav-icon {
+    padding: 2px;
+    float: right;
+    margin-right: 20px;
+    color: #fff;
+    font-weight: bolder;
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    transform: rotate(90deg);  
+    text-align: center;  
+}
+
+#side-nav-icon:hover {
+    cursor: pointer;
+}
+
+#side-nav {
+    position: fixed;
+    top:0;
+    right: 0;
+    /**
+        margin-right: -140px;
+    **/
+}
+
+#side-nav ol {
+    list-style: none;
+    width: 100px;
+}
+#side-nav ol li {
+    padding:20px;
+    border-bottom: 1px solid crimson;
     background-color: #fff;
 }
 
+#side-nav-close-icon {
+    padding: 2px;
+    color: crimson;
+    font-weight: bolder;
+    text-align: center;  
+}
 /**    basic footer    */
 footer {
     position: fixed; 
