@@ -98,6 +98,58 @@ nav a {
     color: crimson;
 }
 
+section {
+    margin-top: 80px;
+}
+
+.container {
+    width: 80%;
+    border: 1px solid crimson;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: crimson;
+    text-decoration: underline;
+}
+
+.centered-text {
+    text-align: center;
+}
+
+.centered {
+    display: block;
+    margin: 0 auto;
+}
+
+.panel-title {
+    background-color: crimson;
+}
+
+.panel-title:first-child {
+    
+}
+
+.panel-body {
+    background-color: #fff;
+    border: 1px solid crimson;
+    padding: 0px 10px 5px 10px;
+}
+
+.mini {
+    border-radius: 8px;
+    width: 40%;
+}
+
+.medium {
+
+}
+
+.mega {
+
+}
+
 /**    basic footer    */
 footer {
     position: fixed; 
