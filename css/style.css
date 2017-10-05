@@ -162,6 +162,53 @@ h1, h2, h3, h4, h5, h6 {
     background-image: linear-gradient(to right, rgba(220, 20, 60, 0), rgba(220, 20, 60, 0.75), rgba(0, 0, 0, 0));    
 }
 
+button {
+    margin: 10px;
+    display: inline-block;
+}
+
+.primary {
+    color: #fff;
+    background-color: crimson;
+    font-size: 1em;
+    font-weight: bolder;
+    border: 3px solid crimson;
+    border-radius:  8px;
+    height: 50px;
+}
+
+
+.primary:hover {
+    background-color: cadetblue;
+}
+
+.primary:active {
+    color: #fff;
+    border: 3px solid crimson;
+    color: crimson;
+    background-color: #eeeeee;
+}
+
+.secondary {
+    color: crimson;
+    font-size: 1em;
+    font-weight: bolder;
+    border: 3px solid crimson;
+    border-radius:  8px;
+    height: 50px;    
+}
+
+.secondary:hover {
+    background-color: burlywood;
+}
+
+.secondary:active {
+    color: #fff;
+    border: 3px solid crimson;
+    color: crimson;
+    background-color: #eeeeee;
+}
+
 /**    basic footer    */
 footer {
     margin-top: 100px;
